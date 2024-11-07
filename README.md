@@ -66,6 +66,10 @@ To contribute to this project:
 3. Make your changes and commit them with clear messages.
 4. Push your branch and create a pull request to the `develop` branch.
 
+## Deployment
+
+The app is deployed using Render and MongoDB Atlas. Access the live application [here](https://ci-cd-github.onrender.com/).
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
