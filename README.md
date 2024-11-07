@@ -1,6 +1,6 @@
-![CI - Cypress Tests](https://img.shields.io/github/actions/workflow/status/RubenDguez/ci-cd-github/main.yml?label=CI%20-%20Cypress%20Tests&style=flat-square)
-![CD - Deploy to Render](https://img.shields.io/github/actions/workflow/status/YourUsername/ci-cd-github/deploy.yml?label=CD%20-%20Deploy%20to%20Render&style=flat-square)
-![License](https://img.shields.io/github/license/YourUsername/ci-cd-github?style=flat-square)
+![CI - Cypress Tests](https://img.shields.io/github/actions/workflow/status/RubenDguez/ci-cd-github/main.yaml?label=CI%20-%20Cypress%20Tests&style=flat-square)
+![CD - Deploy to Render](https://img.shields.io/github/actions/workflow/status/RubenDguez/ci-cd-github/deploy.yaml?label=CD%20-%20Deploy%20to%20Render&style=flat-square)
+![License](https://img.shields.io/github/license/RubenDguez/ci-cd-github?style=flat-square)
 
 # Full-Stack Application with CI/CD Pipeline
 This project demonstrates the integration of a Continuous Integration (CI) and Continuous Deployment (CD) pipeline using GitHub Actions. The application runs Cypress tests on every pull request (PR) to the `develop` branch and automatically deploys to Render when changes are merged into the `main` branch.
