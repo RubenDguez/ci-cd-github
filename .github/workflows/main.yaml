@@ -1,0 +1,30 @@
+name: Test
+
+on:
+  pull_request:
+      branches:
+        - main
+        - develop
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup Node.js
+        id: setup-node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 21.x
+
+      - name: Checkout Code
+        id: checkout-code
+        uses: actions/checkout@v4
+
+      - name: Install Dependencies
+        id: install-dependencies
+        run: npm install
+
+      - name: Run Component Tests
+        id: run-component-test
+        run: npm run test-component
